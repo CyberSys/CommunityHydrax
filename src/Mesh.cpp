@@ -31,7 +31,7 @@ namespace Hydrax
 	Mesh::Mesh(Hydrax *h)
             : mHydrax(h)
 			, mCreated(false)
-            , mMesh(0)
+            , mMesh(Ogre::SharedPtr<Ogre::Mesh>(static_cast<Ogre::Mesh*>(0)))
             , mSubMesh(0)
             , mEntity(0)
             , mNumFaces(0)
