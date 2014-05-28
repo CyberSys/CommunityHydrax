@@ -6,7 +6,7 @@ option(${PROJ}_USE_BOOST "Use Boost (when Ogre compiled with Boost)" ON)
 
 project(${PROJ})
 
-set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/ ${CMAKE_MODULE_PATH})
+#set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/ ${CMAKE_MODULE_PATH})
 
 message("CMAKE_MODULE_PATH = ${CMAKE_MODULE_PATH}")
 
